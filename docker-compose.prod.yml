@@ -1,0 +1,6 @@
+services:
+  api-book-library:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    restart: always
